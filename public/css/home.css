@@ -1,0 +1,62 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p,
+.card ul {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.mission-card {
+    width: 30%;
+   
+    background-color: #86adaf80;
+}
+
+.vision-card {
+    width: 30%;
+    
+    background-color: #86adaf80;
+}
+
+.values-card {
+    
+    width: 30%;
+    background-color: #86adaf80;
+}
